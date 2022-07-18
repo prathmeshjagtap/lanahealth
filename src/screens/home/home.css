@@ -1,0 +1,130 @@
+.info__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3rem;
+}
+
+.info__heading {
+	padding-top: 1rem;
+	text-align: center;
+	max-width: 875px;
+	font-size: 3.3rem;
+	color: #141414;
+	font-family: "Gascogne Regular";
+}
+.info__subHeading {
+	font-size: 1.2rem;
+	padding: 2rem 0;
+	max-width: 700px;
+	text-align: center;
+	color: #535b65;
+}
+
+.video__container {
+	position: relative;
+	padding: 2rem;
+}
+
+.home__page__illustration {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	max-width: 900px;
+}
+.play_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: transform 0.2s;
+	cursor: pointer;
+}
+.play_icon:hover {
+	transform: translate(-50%, -50%) scale(1.1);
+}
+
+.techInfo__container {
+	padding: 2rem 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.techInfo__heading {
+	padding-top: 1rem;
+	text-align: center;
+	max-width: 900px;
+	font-size: 3rem;
+	color: #141414;
+	font-family: "GascogneTS-Regular";
+	text-align: center;
+}
+
+.home__screen_tech {
+	width: 90%;
+	height: auto;
+	object-fit: cover;
+	margin-top: 6rem;
+	margin-bottom: 4rem;
+}
+.techInfo__container button {
+	margin-bottom: 6rem;
+}
+
+/*  */
+
+.info__container2 {
+	background-color: #f1ebff;
+	padding: 6rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3rem;
+}
+
+.info__heading2 {
+	text-align: center;
+	max-width: 875px;
+	font-size: 3rem;
+	margin-top: 4rem;
+	color: #8549ff;
+}
+.info__subHeading2 {
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+	font-size: 1rem;
+}
+.mobile__home__screen_tech {
+	display: none;
+}
+
+/*  */
+.outcomesInfo__container {
+	padding: 0 8rem;
+	margin-bottom: 4rem;
+}
+
+.outcomes__container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 8rem;
+}
+@media screen and (max-width: 768px) {
+	.play_icon {
+		max-width: 60px;
+	}
+	.mobile__home__screen_tech {
+		display: block;
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		margin-top: 6rem;
+		margin-bottom: 4rem;
+	}
+	.home__screen_tech {
+		display: none;
+	}
+}

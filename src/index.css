@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+	font-family: "Gascogne Regular";
+	src: url("fonts/Gascogne-Regular.ttf") format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+:root {
+	--primary-color: #732eff;
+}
+
+button {
+	background-color: var(--primary-color);
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+	color: #eef6f6;
+	border: none;
+	font-size: 1.2rem;
+	font-family: "CeraPro-Regular";
+	cursor: pointer;
 }

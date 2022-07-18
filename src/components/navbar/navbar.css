@@ -1,0 +1,21 @@
+.navbar__container {
+	display: flex;
+	top: 0;
+	left: 0;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 3rem;
+}
+
+.logo-text {
+	height: 32px;
+}
+
+.navbar__list {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+	font-size: 1rem;
+	padding-left: 3rem;
+}
