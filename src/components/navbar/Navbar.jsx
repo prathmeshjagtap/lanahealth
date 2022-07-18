@@ -4,6 +4,7 @@ import "./navbar.css";
 function Navbar() {
 	return (
 		<div className="navbar__container">
+			<img src="" />
 			<div className="navbar__logo">
 				<img
 					className="logo-text"

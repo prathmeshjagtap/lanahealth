@@ -53,8 +53,16 @@
 }
 
 @media screen and (max-width: 780px) {
+	.footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.footer__container {
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 	.links__container {
 		flex-direction: column;

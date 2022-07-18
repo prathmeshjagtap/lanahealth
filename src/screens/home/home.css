@@ -108,9 +108,9 @@
 }
 
 .outcomes__container {
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 8rem;
 }
 @media screen and (max-width: 768px) {
 	.play_icon {
@@ -124,7 +124,17 @@
 		margin-top: 6rem;
 		margin-bottom: 4rem;
 	}
-	.home__screen_tech {
+	.home__screen_tech,
+	.outcomes__container {
 		display: none;
+	}
+	.outcomesInfo__container {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 1240px) {
+	.outcomesInfo__container {
+		padding: 0;
 	}
 }

@@ -1,0 +1,22 @@
+.outcomes__container__mobile {
+	display: none;
+}
+
+.left__arrow {
+	position: absolute;
+	bottom: 0;
+	right: 1rem;
+	width: 2rem;
+}
+.right__arrow {
+	position: absolute;
+	bottom: 0;
+	left: 1rem;
+	width: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+	.outcomes__container__mobile {
+		display: block;
+	}
+}
