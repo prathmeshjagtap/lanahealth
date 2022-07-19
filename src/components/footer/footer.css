@@ -42,6 +42,7 @@
 .social__icons img {
 	width: 32px;
 	align-self: flex-start;
+	cursor: pointer;
 }
 
 .mobile__copyright {
@@ -105,6 +106,7 @@
 	.website__links li {
 		align-self: center;
 		font-size: 1.2rem;
+		cursor: pointer;
 	}
 	.links__container {
 		gap: 0;
