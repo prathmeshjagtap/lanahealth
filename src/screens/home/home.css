@@ -55,8 +55,6 @@
 	margin-bottom: 6rem;
 }
 
-/*  */
-
 .info__container3 {
 	background-color: #f1ebff;
 	padding: 6rem;
@@ -84,54 +82,6 @@
 	font-weight: 100;
 }
 .mobile__home__screen_tech {
-	display: none;
-}
-
-.info__container2 {
-	padding: 6rem 10rem 10rem 10rem;
-	background-color: #faf9fb;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	position: relative;
-}
-.info__container2__heading {
-	padding: 0 2rem;
-	position: sticky;
-	align-self: flex-start;
-	top: 7rem;
-	margin-bottom: 14rem;
-}
-.info__container2__heading h1 {
-	margin-top: 2.5rem;
-	font-family: "GascogneTS-Regular";
-	font-style: normal;
-	text-align: center;
-	letter-spacing: -0.01em;
-	color: #000000;
-	font-size: 3rem;
-	font-weight: normal;
-	text-align: left;
-}
-.info__container2__heading p {
-	font-family: "CeraPro-Regular";
-	padding-top: 1.5rem;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1.2rem;
-	line-height: 150%;
-	color: #535b65;
-	text-align: left;
-}
-
-.patientsInfo__conaiter {
-	display: flex;
-	flex-direction: column;
-	gap: 9rem;
-	top: 8rem;
-	padding: 0 4rem;
-}
-
-.mobile__patientsInfo__conaiter {
 	display: none;
 }
 
@@ -181,41 +131,5 @@
 	}
 	.info__container3 button {
 		margin-bottom: 4rem;
-	}
-}
-
-@media screen and (max-width: 1024px) {
-	.info__container2 {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 2rem;
-		max-height: 100%;
-		position: relative;
-	}
-	.info__container2__heading {
-		padding: 0;
-		position: static;
-		top: 7rem;
-		margin-bottom: 4rem;
-	}
-	.info__container2__heading h1 {
-		margin-top: 2.5rem;
-		font-size: 2rem;
-		text-align: center;
-	}
-	.info__container2__heading p {
-		font-size: 1.1rem;
-		text-align: center;
-	}
-
-	.patientsInfo__conaiter {
-		display: none;
-	}
-	.mobile__patientsInfo__conaiter {
-		display: flex;
-		flex-direction: column;
-		margin-top: 2rem;
 	}
 }

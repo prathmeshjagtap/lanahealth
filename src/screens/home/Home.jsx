@@ -1,7 +1,7 @@
 import React from "react";
 import { Footer, Navbar } from "../../components";
-import { InfoCard, OutcomeInfo, VideoContainer } from "./components";
-import outcomesDatabase from "../../database/healthOutcomes.json";
+import { InfoContainer, OutcomeInfo, VideoContainer } from "./components";
+
 import "./home.css";
 
 function Home() {
@@ -19,26 +19,7 @@ function Home() {
 				<button className="button">Schedule a Demo</button>
 			</div>
 			<VideoContainer />
-			<div className="info__container2">
-				<div className="info__container2__heading">
-					<h1>We're engaging patients at every step of their care journey</h1>
-					<p>
-						Lana is a constant companion for patients across their care journey,
-						right from the hospital bedside, to their recovery post-discharge.
-					</p>
-				</div>
-				<div className="patientsInfo__conaiter">
-					{outcomesDatabase?.patientBenifitsInfo?.map((item) => (
-						<InfoCard key={item.id} cardInfo={item} />
-					))}
-				</div>
-
-				<div className="mobile__patientsInfo__conaiter">
-					{outcomesDatabase?.patientBenifitsInfo?.map((item) => (
-						<InfoCard key={item.id} cardInfo={item} />
-					))}
-				</div>
-			</div>
+			<InfoContainer />
 			<div className="techInfo__container">
 				<h1 className="techInfo__heading">
 					Bringing patient-centered design and state-of-the-art technology to
