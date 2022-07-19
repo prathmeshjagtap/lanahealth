@@ -7,14 +7,14 @@
 	bottom: -4vh;
 	right: 30vw;
 	width: 1.5rem;
-	z-index: 15;
+	z-index: var(--z-index-lg);
 }
 .right__arrow {
 	position: absolute;
 	bottom: -4vh;
 	left: 30vw;
 	width: 1.5rem;
-	z-index: 15;
+	z-index: var(--z-index-lg);
 }
 
 @media screen and (max-width: 768px) {

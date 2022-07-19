@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import outcomesDatabase from "../../database/healthOutcomes.json";
-import { OutcomesCard } from "../outcomesCard/OutcomesCard";
+import { OutcomesCard } from "../../screens/home/components";
 import "./cardCarousel.css";
 
 function CardCarousel() {

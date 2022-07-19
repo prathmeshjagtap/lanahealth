@@ -1,11 +1,6 @@
 import React, { useState } from "react";
-import {
-	CardCarousel,
-	Footer,
-	Modal,
-	Navbar,
-	OutcomesCard,
-} from "../../components";
+import { CardCarousel, Footer, Modal, Navbar } from "../../components";
+import { InfoCard, OutcomesCard } from "./components";
 import outcomesDatabase from "../../database/healthOutcomes.json";
 import "./home.css";
 
@@ -15,6 +10,8 @@ function Home() {
 	const close = () => {
 		setModal(false);
 	};
+
+	console.log(outcomesDatabase.patientBenifitsInfo);
 	return (
 		<div>
 			<Navbar />
@@ -40,6 +37,26 @@ function Home() {
 					src="/assets/play-video.svg"
 					onClick={() => setModal(true)}
 				/>
+			</div>
+			<div className="info__container2">
+				<div className="info__container2__heading">
+					<h1>We're engaging patients at every step of their care journey</h1>
+					<p>
+						Lana is a constant companion for patients across their care journey,
+						right from the hospital bedside, to their recovery post-discharge.
+					</p>
+				</div>
+				<div className="patientsInfo__conaiter">
+					{outcomesDatabase?.patientBenifitsInfo?.map((item) => (
+						<InfoCard key={item.id} cardInfo={item} />
+					))}
+				</div>
+
+				<div className="mobile__patientsInfo__conaiter">
+					{outcomesDatabase?.patientBenifitsInfo?.map((item) => (
+						<InfoCard key={item.id} cardInfo={item} />
+					))}
+				</div>
 			</div>
 			<div className="techInfo__container">
 				<h1 className="techInfo__heading">
@@ -73,11 +90,11 @@ function Home() {
 					))}
 				</div>
 			</div>
-			<div className="info__container2">
-				<h1 className="info__heading2">
+			<div className="info__container3">
+				<h1 className="info__heading3">
 					Modernize patient experiences with Lana!
 				</h1>
-				<h4 className="info__subHeading2">
+				<h4 className="info__subHeading3">
 					Get in touch, and we'll get you started.
 				</h4>
 				<button className="button">Schedule a Demo</button>

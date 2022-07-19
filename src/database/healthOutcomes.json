@@ -24,5 +24,19 @@
 			"heading": "Increase care plan adherence",
 			"info": "Lana helps improve care plan adherence through smart incentives, medication and appointment reminders, and a seamless post-discharge journey."
 		}
+	],
+	"patientBenifitsInfo": [
+		{
+			"id": "1",
+			"image": "/assets/in-patient-illustration.svg",
+			"heading": "At the hospital bedside",
+			"info": "Our intelligent bedside assistant engages, empowers and educates patients during their stay in the hospital."
+		},
+		{
+			"id": "2",
+			"image": "/assets/post-discharge-illustration.svg",
+			"heading": "Care at home",
+			"info": "Our personalized home care app guides patients post-discharge, helping improve care plan adherence."
+		}
 	]
 }
