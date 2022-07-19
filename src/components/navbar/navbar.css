@@ -12,6 +12,7 @@
 
 .logo-text {
 	height: 32px;
+	cursor: pointer;
 }
 
 .navbar__list {
@@ -25,6 +26,7 @@
 	font-size: 1rem;
 	font-family: "CeraPro-Regular";
 	font-weight: 100;
+	cursor: pointer;
 }
 
 .mobile__toggle__container {
@@ -47,6 +49,7 @@
 	text-align: start;
 	font-family: "CeraPro-Regular";
 	font-weight: 100;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {

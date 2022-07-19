@@ -99,7 +99,9 @@
 		object-fit: cover;
 		margin: 4rem 0;
 	}
-	.home__screen_tech,
+	.home__screen_tech {
+		display: none;
+	}
 	.info__container {
 		padding: 3rem;
 	}
