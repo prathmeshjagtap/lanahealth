@@ -5,14 +5,14 @@
 .left__arrow {
 	position: absolute;
 	bottom: -4vh;
-	right: 30vw;
+	right: 15vw;
 	width: 1.5rem;
 	z-index: var(--z-index-lg);
 }
 .right__arrow {
 	position: absolute;
 	bottom: -4vh;
-	left: 30vw;
+	left: 15vw;
 	width: 1.5rem;
 	z-index: var(--z-index-lg);
 }

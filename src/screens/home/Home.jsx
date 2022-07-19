@@ -1,17 +1,10 @@
-import React, { useState } from "react";
-import { CardCarousel, Footer, Modal, Navbar } from "../../components";
-import { InfoCard, OutcomesCard } from "./components";
+import React from "react";
+import { Footer, Navbar } from "../../components";
+import { InfoCard, OutcomeInfo, VideoContainer } from "./components";
 import outcomesDatabase from "../../database/healthOutcomes.json";
 import "./home.css";
 
 function Home() {
-	const [modal, setModal] = useState(false);
-
-	const close = () => {
-		setModal(false);
-	};
-
-	console.log(outcomesDatabase.patientBenifitsInfo);
 	return (
 		<div>
 			<Navbar />
@@ -25,19 +18,7 @@ function Home() {
 				</p>
 				<button className="button">Schedule a Demo</button>
 			</div>
-			<div className="video__container">
-				<img
-					className="home__page__illustration"
-					alt="home-page-illustration"
-					src="/assets/home-page-illustration.svg"
-				/>
-				<img
-					className="play_icon"
-					alt="play-icon"
-					src="/assets/play-video.svg"
-					onClick={() => setModal(true)}
-				/>
-			</div>
+			<VideoContainer />
 			<div className="info__container2">
 				<div className="info__container2__heading">
 					<h1>We're engaging patients at every step of their care journey</h1>
@@ -75,21 +56,7 @@ function Home() {
 				/>
 				<button className="button">Learn More</button>
 			</div>
-			<div className="outcomesInfo__container">
-				<h1 className="outcomesInfo__container__heading">
-					Improving health outcomes
-				</h1>
-				<p className="outcomesInfo__container__subheading">
-					We deliver better clinical outcomes and engage patients at every step
-					of the care journey.
-				</p>
-				<CardCarousel />
-				<div className="outcomes__container">
-					{outcomesDatabase?.outcomesData?.map((item) => (
-						<OutcomesCard key={item.id} cardInfo={item} />
-					))}
-				</div>
-			</div>
+			<OutcomeInfo />
 			<div className="info__container3">
 				<h1 className="info__heading3">
 					Modernize patient experiences with Lana!
@@ -100,7 +67,6 @@ function Home() {
 				<button className="button">Schedule a Demo</button>
 			</div>
 			<Footer />
-			<Modal close={close} open={modal} />
 		</div>
 	);
 }

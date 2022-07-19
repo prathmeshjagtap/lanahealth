@@ -60,17 +60,25 @@
 	color: #808d9c;
 }
 
+@media screen and (max-width: 1024px) {
+	.footer {
+		padding: 0;
+	}
+}
+
 @media screen and (max-width: 780px) {
 	.footer {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		padding: 0;
 	}
 
 	.footer__container {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin-top: 4rem;
 	}
 	.links__container {
 		flex-direction: column;

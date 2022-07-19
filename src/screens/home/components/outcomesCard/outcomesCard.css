@@ -31,4 +31,12 @@
 	.OutcomesCard__container {
 		width: 100%;
 	}
+	.cardInfo__heading {
+		font-size: 1.6rem;
+		padding: 0 2rem;
+	}
+	.cardInfo__subheading {
+		font-size: 1.1rem;
+		padding: 0 2rem;
+	}
 }

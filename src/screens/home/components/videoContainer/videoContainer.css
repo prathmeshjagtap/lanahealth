@@ -1,0 +1,27 @@
+.video__container {
+	position: relative;
+	padding: 2rem;
+}
+.home__page__illustration {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	max-width: 900px;
+}
+.play_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: transform 0.2s;
+	cursor: pointer;
+}
+.play_icon:hover {
+	transform: translate(-50%, -50%) scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+	.play_icon {
+		max-width: 60px;
+	}
+}

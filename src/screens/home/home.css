@@ -26,29 +26,6 @@
 	font-family: "CeraPro-Regular";
 }
 
-.video__container {
-	position: relative;
-	padding: 2rem;
-}
-
-.home__page__illustration {
-	width: 100%;
-	height: auto;
-	object-fit: cover;
-	max-width: 900px;
-}
-.play_icon {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	transition: transform 0.2s;
-	cursor: pointer;
-}
-.play_icon:hover {
-	transform: translate(-50%, -50%) scale(1.1);
-}
-
 .techInfo__container {
 	padding: 2rem 2rem;
 	display: flex;
@@ -110,48 +87,19 @@
 	display: none;
 }
 
-/*  */
-.outcomesInfo__container {
-	padding: 0 8rem;
-	margin-bottom: 4rem;
-}
-
-.outcomesInfo__container__heading {
-	margin: 1rem 0;
-	padding-top: 1rem;
-	text-align: center;
-	font-size: 3rem;
-	font-style: normal;
-	letter-spacing: 0.02em;
-	color: #141414;
-	font-family: "GascogneTS-Regular";
-	font-weight: 100;
-}
-.outcomesInfo__container__subheading {
-	margin: 1rem 0;
-	font-size: 1.2rem;
-	font-family: "CeraPro-Regular";
-	font-weight: 100;
-	color: #535b65;
-}
-
-.outcomes__container {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-/*  */
-
 .info__container2 {
 	padding: 6rem 10rem 10rem 10rem;
 	background-color: #faf9fb;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	max-height: 800px;
+	position: relative;
 }
 .info__container2__heading {
 	padding: 0 2rem;
+	position: sticky;
+	align-self: flex-start;
+	top: 7rem;
+	margin-bottom: 14rem;
 }
 .info__container2__heading h1 {
 	margin-top: 2.5rem;
@@ -178,11 +126,8 @@
 .patientsInfo__conaiter {
 	display: flex;
 	flex-direction: column;
-	position: sticky;
 	gap: 9rem;
 	top: 8rem;
-	overflow-y: auto;
-	height: calc(800px - 14rem);
 	padding: 0 4rem;
 }
 
@@ -197,9 +142,6 @@
 }
 
 @media screen and (max-width: 768px) {
-	.play_icon {
-		max-width: 60px;
-	}
 	.mobile__home__screen_tech {
 		display: block;
 		width: 100%;
@@ -208,12 +150,6 @@
 		margin: 4rem 0;
 	}
 	.home__screen_tech,
-	.outcomes__container {
-		display: none;
-	}
-	.outcomesInfo__container {
-		padding: 0;
-	}
 	.info__container {
 		padding: 3rem;
 	}
@@ -260,6 +196,9 @@
 	}
 	.info__container2__heading {
 		padding: 0;
+		position: static;
+		top: 7rem;
+		margin-bottom: 4rem;
 	}
 	.info__container2__heading h1 {
 		margin-top: 2.5rem;
@@ -278,11 +217,5 @@
 		display: flex;
 		flex-direction: column;
 		margin-top: 2rem;
-	}
-}
-
-@media screen and (max-width: 1240px) {
-	.outcomesInfo__container {
-		padding: 0;
 	}
 }
