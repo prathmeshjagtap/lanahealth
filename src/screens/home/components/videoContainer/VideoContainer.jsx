@@ -24,7 +24,7 @@ function VideoContainer() {
 					onClick={() => setModal(true)}
 				/>
 			</div>
-			<Modal close={close} open={modal} />
+			{modal && <Modal close={close} />}
 		</>
 	);
 }

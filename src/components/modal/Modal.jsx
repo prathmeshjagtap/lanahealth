@@ -1,9 +1,10 @@
 import React from "react";
 import "./modal.css";
 import { createPortal } from "react-dom";
+import { useLockBodyScroll } from "../../hooks/useLockBodyScroll";
 
-function Modal({ open, close }) {
-	if (!open) return null;
+function Modal({ close }) {
+	useLockBodyScroll();
 	return createPortal(
 		<div className="modal">
 			<iframe
