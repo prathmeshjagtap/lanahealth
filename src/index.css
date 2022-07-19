@@ -1,6 +1,12 @@
+@import url("//hello.myfonts.net/count/408064");
+
 @font-face {
-	font-family: "Gascogne Regular";
-	src: url("fonts/Gascogne-Regular.ttf") format("truetype");
+	font-family: "GascogneTS-Regular";
+	src: url("fonts/Gascogne.woff2") format("woff2");
+}
+@font-face {
+	font-family: "CeraPro-Regular";
+	src: url("fonts/ceraPro.woff2") format("woff2");
 }
 
 *,
@@ -30,5 +36,6 @@ button {
 	border: none;
 	font-size: 1.2rem;
 	font-family: "CeraPro-Regular";
+	font-weight: 100;
 	cursor: pointer;
 }

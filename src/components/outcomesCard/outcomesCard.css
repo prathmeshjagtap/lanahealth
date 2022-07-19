@@ -13,12 +13,18 @@
 .cardInfo__heading {
 	text-align: center;
 	margin-bottom: 1rem;
-	max-width: 512px;
+	max-width: 524px;
+	font-family: "GascogneTS-Regular";
+	font-weight: lighter;
+	font-size: 1.8rem;
 }
-.cardInfo__heading {
+.cardInfo__subheading {
 	text-align: center;
 	max-width: 480px;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
+	font-family: "CeraPro-Regular";
+	font-weight: 100;
+	color: #535b65;
 }
 
 @media screen and (max-width: 768px) {

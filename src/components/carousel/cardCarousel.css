@@ -4,15 +4,17 @@
 
 .left__arrow {
 	position: absolute;
-	bottom: 0;
-	right: 1rem;
-	width: 2rem;
+	bottom: -4vh;
+	right: 30vw;
+	width: 1.5rem;
+	z-index: 15;
 }
 .right__arrow {
 	position: absolute;
-	bottom: 0;
-	left: 1rem;
-	width: 2rem;
+	bottom: -4vh;
+	left: 30vw;
+	width: 1.5rem;
+	z-index: 15;
 }
 
 @media screen and (max-width: 768px) {

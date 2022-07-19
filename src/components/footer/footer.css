@@ -19,11 +19,13 @@
 .website__links {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: start; */
+	font-family: "CeraPro-Regular";
+	font-weight: 100;
 }
 
 .links__heading {
 	margin-bottom: 1rem;
+	text-align: left;
 }
 
 .website__links li {
@@ -44,12 +46,18 @@
 
 .mobile__copyright {
 	display: none;
+	font-family: "CeraPro-Regular";
+	font-weight: 100;
+	color: #808d9c;
 }
 
 .copyright {
 	display: block;
 	align-self: flex-start;
 	margin-top: 12px;
+	font-family: "CeraPro-Regular";
+	font-weight: 100;
+	color: #808d9c;
 }
 
 @media screen and (max-width: 780px) {

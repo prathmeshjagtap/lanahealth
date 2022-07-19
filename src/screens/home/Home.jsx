@@ -59,8 +59,10 @@ function Home() {
 				<button className="button">Learn More</button>
 			</div>
 			<div className="outcomesInfo__container">
-				<h1>Improving health outcomes</h1>
-				<p>
+				<h1 className="outcomesInfo__container__heading">
+					Improving health outcomes
+				</h1>
+				<p className="outcomesInfo__container__subheading">
 					We deliver better clinical outcomes and engage patients at every step
 					of the care journey.
 				</p>

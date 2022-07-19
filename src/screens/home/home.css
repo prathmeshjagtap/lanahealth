@@ -11,8 +11,11 @@
 	text-align: center;
 	max-width: 875px;
 	font-size: 3.3rem;
+	font-style: normal;
+	letter-spacing: 0.02em;
 	color: #141414;
-	font-family: "Gascogne Regular";
+	font-family: "GascogneTS-Regular";
+	font-weight: 100;
 }
 .info__subHeading {
 	font-size: 1.2rem;
@@ -20,6 +23,7 @@
 	max-width: 700px;
 	text-align: center;
 	color: #535b65;
+	font-family: "CeraPro-Regular";
 }
 
 .video__container {
@@ -59,6 +63,7 @@
 	font-size: 3rem;
 	color: #141414;
 	font-family: "GascogneTS-Regular";
+	font-weight: 100;
 	text-align: center;
 }
 
@@ -88,14 +93,18 @@
 .info__heading2 {
 	text-align: center;
 	max-width: 875px;
-	font-size: 3rem;
+	font-size: 2.8rem;
 	margin-top: 4rem;
 	color: #8549ff;
+	font-family: "GascogneTS-Regular";
+	font-weight: 100;
 }
 .info__subHeading2 {
 	margin-bottom: 4rem;
 	margin-top: 2rem;
-	font-size: 1rem;
+	font-size: 1.2rem;
+	font-family: "CeraPro-Regular";
+	font-weight: 100;
 }
 .mobile__home__screen_tech {
 	display: none;
@@ -107,11 +116,31 @@
 	margin-bottom: 4rem;
 }
 
+.outcomesInfo__container__heading {
+	margin: 1rem 0;
+	padding-top: 1rem;
+	text-align: center;
+	font-size: 3rem;
+	font-style: normal;
+	letter-spacing: 0.02em;
+	color: #141414;
+	font-family: "GascogneTS-Regular";
+	font-weight: 100;
+}
+.outcomesInfo__container__subheading {
+	margin: 1rem 0;
+	font-size: 1.2rem;
+	font-family: "CeraPro-Regular";
+	font-weight: 100;
+	color: #535b65;
+}
+
 .outcomes__container {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
+
 @media screen and (max-width: 768px) {
 	.play_icon {
 		max-width: 60px;

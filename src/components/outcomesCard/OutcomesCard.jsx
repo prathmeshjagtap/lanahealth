@@ -9,7 +9,7 @@ function OutcomesCard({ cardInfo }) {
 				alt={cardInfo.name}
 			/>
 			<h1 className="cardInfo__heading">{cardInfo.heading}</h1>
-			<p className="cardInfo__heading">{cardInfo.info}</p>
+			<p className="cardInfo__subheading">{cardInfo.info}</p>
 		</div>
 	);
 }
