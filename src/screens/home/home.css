@@ -1,0 +1,135 @@
+.info__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3rem;
+}
+
+.info__heading {
+	padding-top: 1rem;
+	text-align: center;
+	max-width: 875px;
+	font-size: 3.3rem;
+	font-style: normal;
+	letter-spacing: 0.02em;
+	color: #141414;
+	font-family: "GascogneTS-Regular";
+	font-weight: 100;
+}
+.info__subHeading {
+	font-size: 1.2rem;
+	padding: 2rem 0;
+	max-width: 700px;
+	text-align: center;
+	color: #535b65;
+	font-family: "CeraPro-Regular";
+}
+
+.techInfo__container {
+	padding: 2rem 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.techInfo__heading {
+	padding-top: 1rem;
+	text-align: center;
+	max-width: 900px;
+	font-size: 3rem;
+	color: #141414;
+	font-family: "GascogneTS-Regular";
+	font-weight: 100;
+	text-align: center;
+}
+
+.home__screen_tech {
+	width: 90%;
+	height: auto;
+	object-fit: cover;
+	margin-top: 6rem;
+	margin-bottom: 4rem;
+}
+.techInfo__container button {
+	margin-bottom: 6rem;
+}
+
+.info__container3 {
+	background-color: #f1ebff;
+	padding: 6rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3rem;
+}
+
+.info__heading3 {
+	text-align: center;
+	max-width: 875px;
+	font-size: 2.8rem;
+	margin-top: 4rem;
+	color: #8549ff;
+	font-family: "GascogneTS-Regular";
+	font-weight: 100;
+}
+.info__subHeading3 {
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+	font-size: 1.2rem;
+	font-family: "CeraPro-Regular";
+	font-weight: 100;
+}
+.mobile__home__screen_tech {
+	display: none;
+}
+
+@media screen and (max-width: 480px) {
+	.info__container {
+		padding: 3rem 2rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.mobile__home__screen_tech {
+		display: block;
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		margin: 4rem 0;
+	}
+	.home__screen_tech,
+	.info__container {
+		padding: 3rem;
+	}
+
+	.techInfo__container {
+		padding: 0rem;
+	}
+	.info__heading {
+		font-size: 2rem;
+		padding: 2rem;
+	}
+	.techInfo__heading {
+		font-size: 2rem;
+		padding: 2rem;
+	}
+
+	.info__container3 {
+		padding: 2rem;
+	}
+	.info__heading3 {
+		font-size: 2rem;
+	}
+	.info__subHeading3 {
+		margin-bottom: 4rem;
+		margin-top: 2rem;
+		font-size: 1.2rem;
+		font-family: "CeraPro-Regular";
+		font-weight: 100;
+	}
+	.info__container3 button {
+		margin-bottom: 4rem;
+	}
+}

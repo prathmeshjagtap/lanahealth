@@ -1,0 +1,42 @@
+{
+	"outcomesData": [
+		{
+			"id": "1",
+			"imgage": "/assets/patient-experience-outcomes.png",
+			"heading": "Improve patient experience",
+			"info": "Lana's bedside assistant engages and entertains patients, delivering comfort and care when patients need it the most."
+		},
+		{
+			"id": "2",
+			"imgage": "/assets/hcahps-readmissions-outcomes.png",
+			"heading": "Higher HCAHPS, lower readmissions",
+			"info": "Improve HCAHPS scores and reduce hospital readmissions by achieving better health literacy and improved patient satisfaction."
+		},
+		{
+			"id": "3",
+			"imgage": "/assets/nurse-workflows-outcomes.png",
+			"heading": "Streamline nurse workflows",
+			"info": "With our integrations with existing clinical communication platforms, Lana routes patient requests to the right care team member, increasing staff efficiency while prioritizing patient needs."
+		},
+		{
+			"id": "4",
+			"imgage": "/assets/adherence-outcomes.svg",
+			"heading": "Increase care plan adherence",
+			"info": "Lana helps improve care plan adherence through smart incentives, medication and appointment reminders, and a seamless post-discharge journey."
+		}
+	],
+	"patientBenifitsInfo": [
+		{
+			"id": "1",
+			"image": "/assets/in-patient-illustration.svg",
+			"heading": "At the hospital bedside",
+			"info": "Our intelligent bedside assistant engages, empowers and educates patients during their stay in the hospital."
+		},
+		{
+			"id": "2",
+			"image": "/assets/post-discharge-illustration.svg",
+			"heading": "Care at home",
+			"info": "Our personalized home care app guides patients post-discharge, helping improve care plan adherence."
+		}
+	]
+}

@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("//hello.myfonts.net/count/408064");
+
+@font-face {
+	font-family: "GascogneTS-Regular";
+	src: url("fonts/Gascogne.woff2") format("woff2");
+}
+@font-face {
+	font-family: "CeraPro-Regular";
+	src: url("fonts/ceraPro.woff2") format("woff2");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+	--z-index-s: 1;
+
+	--z-index-m: 2;
+
+	--z-index-lg: 3;
+
+	--z-index-xl: 4;
+
+	--z-index-xxl: 5;
+}
+
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+:root {
+	--primary-color: #732eff;
+}
+
+button {
+	background-color: var(--primary-color);
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+	color: #eef6f6;
+	border: none;
+	font-size: 1.2rem;
+	font-family: "CeraPro-Regular";
+	font-weight: 100;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+	button {
+		border-radius: 8px;
+		padding: 1rem;
+	}
 }

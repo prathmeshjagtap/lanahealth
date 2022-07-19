@@ -1,0 +1,54 @@
+.outcomesInfo__container {
+	padding: 0 8rem;
+	margin-bottom: 4rem;
+}
+
+.outcomesInfo__container__heading {
+	margin: 1rem 0;
+	padding-top: 1rem;
+	text-align: center;
+	font-size: 3rem;
+	font-style: normal;
+	letter-spacing: 0.02em;
+	color: #141414;
+	font-family: "GascogneTS-Regular";
+	font-weight: 100;
+}
+.outcomesInfo__container__subheading {
+	margin: 1rem 0;
+	font-size: 1.2rem;
+	font-family: "CeraPro-Regular";
+	font-weight: 100;
+	color: #535b65;
+}
+
+.outcomes__container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px) {
+	.outcomesInfo__container__subheading {
+		padding: 0 2rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.outcomes__container {
+		display: none;
+	}
+	.outcomesInfo__container__heading {
+		font-size: 2rem;
+		padding: 0 1rem;
+	}
+	.outcomesInfo__container__subheading {
+		font-size: 1.2rem;
+		padding: 0 4rem;
+	}
+}
+@media screen and (max-width: 1240px) {
+	.outcomesInfo__container {
+		padding: 0;
+	}
+}

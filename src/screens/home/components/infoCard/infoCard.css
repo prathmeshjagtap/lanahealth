@@ -1,0 +1,52 @@
+.infoCard__container {
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.infoCard__image {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	margin-bottom: 2rem;
+	max-width: 500px;
+}
+.infoCard__heading {
+	font-family: "GascogneTS-Regular";
+	font-weight: 100;
+	text-align: left;
+}
+.infoCard__subHeading {
+	padding-top: 1rem;
+	font-family: "CeraPro-Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 150%;
+	color: #535b65;
+	text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+	.infoCard__container {
+		padding: 0rem;
+	}
+	.infoCard__heading {
+		font-family: "GascogneTS-Regular";
+		font-weight: 100;
+		text-align: left;
+		font-size: 1.3rem;
+		order: 1;
+		color: #8549ff;
+		margin-bottom: 1rem;
+	}
+	.infoCard__image {
+		order: 2;
+	}
+	.infoCard__subHeading {
+		padding-top: 0;
+		font-size: 1rem;
+		margin-bottom: 4rem;
+		order: 3;
+	}
+}

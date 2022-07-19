@@ -1,0 +1,24 @@
+.outcomes__container__mobile {
+	display: none;
+}
+
+.left__arrow {
+	position: absolute;
+	bottom: -4vh;
+	right: 15vw;
+	width: 1.5rem;
+	z-index: var(--z-index-lg);
+}
+.right__arrow {
+	position: absolute;
+	bottom: -4vh;
+	left: 15vw;
+	width: 1.5rem;
+	z-index: var(--z-index-lg);
+}
+
+@media screen and (max-width: 768px) {
+	.outcomes__container__mobile {
+		display: block;
+	}
+}
